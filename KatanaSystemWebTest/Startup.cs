@@ -1,4 +1,7 @@
 ﻿using Owin;
+﻿using Microsoft.Owin;
+﻿
+﻿[assembly: OwinStartup (typeof (KatanaSystemWebTest.Startup), "Configuration")]
 
 namespace KatanaSystemWebTest
 {
